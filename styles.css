@@ -12,7 +12,6 @@
 .carousel-item img {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-
 }
 
 .dropdown:hover>.dropdown-menu {
@@ -52,3 +51,9 @@
   word-wrap: break-word;
 }
 
+footer {
+  color: #ecf0f1;
+
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
