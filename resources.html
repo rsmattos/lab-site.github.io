@@ -13,9 +13,12 @@
 
     <title>Home - Cardozo's Group</title>
   </head>
-  <div class="container-lg">
+
+  <div class="container-lg pt-1 pb-1">
     <body>
-      <h1>Cardozo's Group</h1>
+      <div class="header">
+        <img class="img-fluid" src="img/header.png">
+      </div>
 
       <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
   
@@ -31,6 +34,7 @@
             <li class="nav-item dropdown">
               <a class="nav-link" href="people.html">People</a>
               <div class="dropdown-menu bg-dark">
+                <a class="dropdown-item" href="people.html#head">Head</a>
                 <a class="dropdown-item" href="people.html#doctorate">Doctorate</a>
                 <a class="dropdown-item" href="people.html#master">Master</a>
                 <a class="dropdown-item" href="people.html#bachelor">Bachelor</a>
@@ -62,19 +66,51 @@
         </div>
       </nav>
 
-      <h2 id="presentations">Group Presentations</h2>
+      <div class="resources">
+        <div>
+          <h2 id="presentations">Group Presentations</h2>
 
-      <a href="https://drive.google.com/drive/folders/1FPsMPpOu_H4nNlFBsi6VfP05oa_VL7Yg?usp=sharing">Google Drive</a>
-
-      <div class="center">
-        <h2 id="girafa">G.I.R.A.F.A.</h2>
-
-        <iframe src="https://drive.google.com/file/d/1JYZ81GRdRSWSEdvNn8SmqrxFZ4pKF_yQ/preview" width="640" height="480"></iframe>
+          <iframe class="presentations" src="https://drive.google.com/embeddedfolderview?id=1FPsMPpOu_H4nNlFBsi6VfP05oa_VL7Yg#list"></iframe>
+        </div>
+  
+        <div>
+          <h2 id="girafa">G.I.R.A.F.A.</h2>
+          
+          <iframe class="girafa" src="https://drive.google.com/file/d/1JYZ81GRdRSWSEdvNn8SmqrxFZ4pKF_yQ/preview"></iframe>
+        </div>
+  
+        <div>
+          <h2 id="calendar">Calendar</h2>
+          
+          <iframe class="calendar" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FSao_Paulo&amp;src=YWc3bGNtcm1ndnZ0Z2hhMWJ0OWtndWJ1c2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%233F51B5"></iframe>
+        </div>
       </div>
 
-      <h2 id="calendar">Calendar</h2>
+      <footer class="page-footer font-small bg-dark pt-4">
+        <div class="container-fluid text-center text-md-left">
+          <div class="row">
+            <div class="col-md-6 mt-md-0 mt-3 address">
+              <h6>Adress:</h6>
+              <p>Avenida Athos da Silveira Ramos, nº 149, Bloco A  – 7º andar</p>
+              <p>Centro de Tecnologia – Cidade Universitária – Rio de Janeiro – RJ</p>
+              <p>CEP: 21941-909</p>
+              <p>e-mail:um email@iq.ufrj.br</p>
+            </div>
 
-      <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FSao_Paulo&amp;src=YWc3bGNtcm1ndnZ0Z2hhMWJ0OWtndWJ1c2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%233F51B5" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            <div class="col-md-6 mt-md-0 mt-3">
+              <div class="list-group list-group-flush">
+                <a href="https://ufrj.br/" class="list-group-item">Federal University of Rio de Janeiro</a>
+                <a href="iq.ufrj.br/en/" class="list-group-item">Institute of Chemistry</a>
+                <a href="https://pgqu.iq.ufrj.br/" class="list-group-item">PGQu</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-right powered mr-3">
+          <p>Powered by <a href="https://github.com/rsmattos">Rafael</a></p>
+        </div>
+      </footer>
 
       <!-- Optional JavaScript -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->

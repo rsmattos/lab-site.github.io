@@ -13,9 +13,12 @@
 
     <title>Home - Cardozo's Group</title>
   </head>
-  <div class="container-lg">
+
+  <div class="container-lg pt-1 pb-1">
     <body>
-      <h1>Cardozo's Group</h1>
+      <div class="header">
+        <img class="img-fluid" src="img/header.png">
+      </div>
 
       <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
   
@@ -31,6 +34,7 @@
             <li class="nav-item dropdown">
               <a class="nav-link" href="people.html">People</a>
               <div class="dropdown-menu bg-dark">
+                <a class="dropdown-item" href="people.html#head">Head</a>
                 <a class="dropdown-item" href="people.html#doctorate">Doctorate</a>
                 <a class="dropdown-item" href="people.html#master">Master</a>
                 <a class="dropdown-item" href="people.html#bachelor">Bachelor</a>
@@ -94,11 +98,16 @@
 
       </div>
 
+      <dib class="about">
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in egestas erat. Morbi hendrerit lacinia dolor, vel tristique purus laoreet quis. Vivamus ultrices est eget ligula volutpat, at convallis augue placerat. Fusce non bibendum mi. Fusce risus sapien, hendrerit euismod rutrum eget, suscipit sed lectus. Aenean euismod, quam vel tincidunt ultrices, ligula orci tempor eros, facilisis faucibus ligula metus sed enim. Nullam facilisis dapibus quam, a cursus risus rhoncus non. Etiam ut metus sit amet augue pharetra commodo ac at mi. Nunc lobortis eros sit amet ultricies pharetra. Fusce scelerisque accumsan libero ut dictum. Duis tincidunt at quam sed elementum. Sed non congue libero, accumsan vulputate neque. Nam blandit, dui eget vestibulum placerat, ipsum eros blandit velit, faucibus laoreet justo diam et lectus. Vestibulum eget massa eu dui gravida laoreet. Phasellus ornare eu eros vitae tristique. Maecenas gravida condimentum nibh non volutpat.</p>
+        <p>Sed convallis sapien sit amet dolor maximus, ut suscipit lorem porttitor. Duis quam orci, facilisis id iaculis vitae, ornare eget velit. Nullam pellentesque facilisis purus sed dignissim. Duis tempor urna turpis, nec sollicitudin dui molestie in. Nullam posuere placerat ligula. Morbi condimentum consectetur fermentum. Quisque in arcu lacinia, ullamcorper est a, placerat urna. Proin sollicitudin neque et nunc consequat, sit amet vehicula nulla semper. Fusce fermentum nulla non eleifend finibus.</p>
+      </dib>
+
       <footer class="page-footer font-small bg-dark pt-4">
         <div class="container-fluid text-center text-md-left">
           <div class="row">
-            <div class="col-md-6 mt-md-0 mt-3">
-              <h5>Contacts</h5>
+            <div class="col-md-6 mt-md-0 mt-3 address">
               <h6>Adress:</h6>
               <p>Avenida Athos da Silveira Ramos, nº 149, Bloco A  – 7º andar</p>
               <p>Centro de Tecnologia – Cidade Universitária – Rio de Janeiro – RJ</p>
@@ -107,12 +116,16 @@
             </div>
 
             <div class="col-md-6 mt-md-0 mt-3">
-              <h5>Links</h5>
+              <div class="list-group list-group-flush">
+                <a href="https://ufrj.br/" class="list-group-item">Federal University of Rio de Janeiro</a>
+                <a href="iq.ufrj.br/en/" class="list-group-item">Institute of Chemistry</a>
+                <a href="https://pgqu.iq.ufrj.br/" class="list-group-item">PGQu</a>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="text-md-right">
+        <div class="text-right mr-3 powered">
           <p>Powered by <a href="https://github.com/rsmattos">Rafael</a></p>
         </div>
       </footer>

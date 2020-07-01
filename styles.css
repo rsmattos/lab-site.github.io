@@ -1,3 +1,4 @@
+/* every page */
 .container-lg {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: 25px;
@@ -9,35 +10,71 @@
   border-top-right-radius: 5px;
 }
 
-.carousel-item img {
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-
 .dropdown:hover>.dropdown-menu {
   display: block;
 }
 
 .dropdown-item {
-  color: #ecf0f1;
+  color: #99a4ad;
 }
 
 .dropdown-item:hover {
-  color: #6c757d;
+  color: #ecf0f1;
   background-color: #343a40;
 }
 
+h2 {
+  margin-top: 20px;
+  line-height: 50px;
+}
+
+footer {
+  color: #99a4ad;
+
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.address p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+footer .list-group-item {
+  color: #99a4ad;
+  background-color: #343a40;
+}
+
+footer .list-group-item:hover {
+  color: #ecf0f1;
+  background-color: #343a40;
+  text-decoration: none;
+}
+
+.powered a {
+  color: #99a4ad;
+  text-decoration: none;
+}
+
+.powered a:hover {
+  color: #ecf0f1;
+  text-decoration: none;
+}
+
+/* index */
 .carousel-item img {
   max-height: 350px;
   width: 100%;
   object-fit: cover;
 }
 
+/* people */
 .card {
   max-width: 540px;
 }
 
 .card img {
+  max-width: 50%;
   max-width: 220px;
   height: 100%;
   object-fit: cover;
@@ -51,9 +88,29 @@
   word-wrap: break-word;
 }
 
-footer {
-  color: #ecf0f1;
+/* publications */
 
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+
+/* research */
+
+
+/* resources */
+.resources iframe {
+  max-width: 100%;
+}
+
+.presentations {
+  width: 900px;
+  height: 300px;
+}
+
+.girafa {
+  width: 880px;
+  height: 480px;
+}
+
+.calendar {
+  border:solid 1px #777;
+  width: 800px;
+  height: 600px;
 }

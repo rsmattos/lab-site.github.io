@@ -13,10 +13,13 @@
 
     <title>People - Cardozo's Group</title>
   </head>
-  <div class="container-lg">
+
+  <div class="container-lg pt-1 pb-1">
     <body>
-      <h1>Cardozo's Group</h1>
-      
+      <div class="header">
+        <img class="img-fluid" src="img/header.png">
+      </div>
+
       <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
   
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
@@ -31,6 +34,7 @@
             <li class="nav-item dropdown">
               <a class="nav-link active" href="people.html">People</a>
               <div class="dropdown-menu bg-dark">
+                <a class="dropdown-item" href="#head">Head</a>
                 <a class="dropdown-item" href="#doctorate">Doctorate</a>
                 <a class="dropdown-item" href="#master">Master</a>
                 <a class="dropdown-item" href="#bachelor">Bachelor</a>
@@ -61,8 +65,29 @@
           </ul>
         </div>
       </nav>
-      
+
+      <h2 id="head">Head</h2>
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="card mb-3">
+            <div class="row no-gutters">
+              <div class="col-md-0">
+                <img class="card-img rounded" src="img/profile-rafael.jpg">
+              </div>
+              <div class="col md-0">
+                <div class="card-body">
+                  <h4 class="card-title"> Rafael</h4>
+                  <p class="card-text">Eu sou o alfa e o ômega!</p>
+                  <a href="#" class="card-link" data-toggle="modal" data-target="#mariana-details">Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <h2 id="doctorate">Doctorate Students</h2>
+
       <h2 id="master">Master Students</h2>
       <div class="row">
         <div class="col-lg-6 col-md-12">
@@ -142,35 +167,61 @@
           </div>
         </div>
       </div>
+      
+      <footer class="page-footer font-small bg-dark pt-4">
+        <div class="container-fluid text-center text-md-left">
+          <div class="row">
+            <div class="col-md-6 mt-md-0 mt-3 address">
+              <h6>Adress:</h6>
+              <p>Avenida Athos da Silveira Ramos, nº 149, Bloco A  – 7º andar</p>
+              <p>Centro de Tecnologia – Cidade Universitária – Rio de Janeiro – RJ</p>
+              <p>CEP: 21941-909</p>
+              <p>e-mail:um email@iq.ufrj.br</p>
+            </div>
+
+            <div class="col-md-6 mt-md-0 mt-3">
+              <div class="list-group list-group-flush">
+                <a href="https://ufrj.br/" class="list-group-item">Federal University of Rio de Janeiro</a>
+                <a href="iq.ufrj.br/en/" class="list-group-item">Institute of Chemistry</a>
+                <a href="https://pgqu.iq.ufrj.br/" class="list-group-item">PGQu</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-right powered mr-3">
+          <p>Powered by <a href="https://github.com/rsmattos">Rafael</a></p>
+        </div>
+      </footer>
 
       <div class="modal fade" id="mariana-details" tabindex="-1" role="dialog">
-          <div class="modal-dialog modal-lg" role="document">
-              <div class="modal-content">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
 
-                <div class="modal-header">
-                    <h5 class="modal-title mx-auto">Mariana Telles do Casal</h5>
-                </div>
-
-                <div class="modal-body">
-                  <img class="rounded float-left mr-3" src="img/profile-titereira.jpg">
-
-                  <div>
-                    <h4 class="card-title"> Mariana do Casal</h4>
-                    <p class="card-text">The giraffe's chief distinguishing characteristics are its extremely long neck and legs, its horn-like ossicones, and its distinctive coat patterns</p>
-                    <a href="#" class="card-link" data-toggle="modal" data-target="#mariana-details">Details</a>
-                  </div>
-                </div>
-
-                <div class="modal-body">
-                  <p>The giraffe's chief distinguishing characteristics are its extremely long neck and legs, its horn-like ossicones, and its distinctive coat patterns. It is classified under the family Giraffidae, along with its closest extant relative, the okapi. Its scattered range extends from Chad in the north to South Africa in the south, and from Niger in the west to Somalia in the east. Giraffes usually inhabit savannahs and woodlands. Their food source is leaves, fruits and flowers of woody plants, primarily acacia species, which they browse at heights most other herbivores cannot reach. They may be preyed on by lions, leopards, spotted hyenas and African wild dogs. Giraffes live in herds of related females and their offspring, or bachelor herds of unrelated adult males, but are gregarious and may gather in large aggregations. Males establish social hierarchies through "necking", which are combat bouts where the neck is used as a weapon. Dominant males gain mating access to females, which bear the sole responsibility for raising the young.</p>
-                </div>
-
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                </div>
-
+              <div class="modal-header">
+                  <h5 class="modal-title mx-auto">Mariana Telles do Casal</h5>
               </div>
-          </div>
+
+              <div class="modal-body">
+                <img class="rounded float-left mr-3" src="img/profile-titereira.jpg">
+
+                <div>
+                  <h4 class="card-title"> Mariana do Casal</h4>
+                  <p class="card-text">The giraffe's chief distinguishing characteristics are its extremely long neck and legs, its horn-like ossicones, and its distinctive coat patterns</p>
+                  <a href="#" class="card-link" data-toggle="modal" data-target="#mariana-details">Details</a>
+                </div>
+              </div>
+
+              <div class="modal-body">
+                <p>The giraffe's chief distinguishing characteristics are its extremely long neck and legs, its horn-like ossicones, and its distinctive coat patterns. It is classified under the family Giraffidae, along with its closest extant relative, the okapi. Its scattered range extends from Chad in the north to South Africa in the south, and from Niger in the west to Somalia in the east. Giraffes usually inhabit savannahs and woodlands. Their food source is leaves, fruits and flowers of woody plants, primarily acacia species, which they browse at heights most other herbivores cannot reach. They may be preyed on by lions, leopards, spotted hyenas and African wild dogs. Giraffes live in herds of related females and their offspring, or bachelor herds of unrelated adult males, but are gregarious and may gather in large aggregations. Males establish social hierarchies through "necking", which are combat bouts where the neck is used as a weapon. Dominant males gain mating access to females, which bear the sole responsibility for raising the young.</p>
+              </div>
+
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+
+            </div>
+        </div>
       </div>
 
     <!-- Optional JavaScript -->
