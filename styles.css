@@ -73,15 +73,14 @@ footer .list-group-item:hover {
   max-width: 540px;
 }
 
-.card img {
-  max-width: 50%;
-  max-width: 220px;
-  height: 100%;
-  object-fit: cover;
+.card-img {
+  width: 220px;
+  max-width: 40vw;
+  height: auto;
 }
 
 .modal-body img{
-  max-width: 220px;
+  max-width: 100%;
 }
 
 .modal-body p {
